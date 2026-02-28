@@ -2,7 +2,7 @@
 
 **Looper** is a 2D top-down puzzle game with time-travelling mechanics for the Game Boy Advance that follows Adam on his quest to locate Elise after he gets fired from his job as a janitor.
 
-[Play Here](https://your-github-pages-url-here)
+[Play Here](https://jsk07211.github.io/looper-emulator/)
 
 > The full source code and development history for Looper is available in the [main repository](https://github.com/USFCA-CS490-Spring-2025-Looper/looper).
 
