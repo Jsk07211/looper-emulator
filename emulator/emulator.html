@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Looper ⏰</title>
+    <script src="js/util.js" defer></script>
+    <script src="js/core.js" defer></script>
+    <script src="js/arm.js" defer></script>
+    <script src="js/thumb.js" defer></script>
+    <script src="js/mmu.js" defer></script>
+    <script src="js/io.js" defer></script>
+    <script src="js/audio.js" defer></script>
+    <script src="js/video.js" defer></script>
+    <script src="js/video/proxy.js" defer></script>
+    <script src="js/video/software.js" defer></script>
+    <script src="js/irq.js" defer></script>
+    <script src="js/keypad.js" defer></script>
+    <script src="js/sio.js" defer></script>
+    <script src="js/savedata.js" defer></script>
+    <script src="js/gpio.js" defer></script>
+    <script src="js/gba.js" defer></script>
+    <script src="resources/xhr.js" defer></script>
+    <script src="js/main.js" defer></script>
+</head>
+
+<body style="text-align: center;">
+    <!-- Screen of GBA.js-->
+    <canvas id="screen" width="600" height="400"></canvas>
+
+    <!-- Start Controls -->
+    <div id="controls">
+        <!-- Start In-Game Controls -->
+        <h4>In-Game Controls</h4>
+        <div id="in-game" class="hidden">
+            <button id="pause">Pause Game</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+        <!-- End In-Game Controls -->
+    </div>
+    <!-- End Controls -->
+</body>
+
+</html>
