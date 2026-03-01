@@ -32,6 +32,10 @@ body {
 h1 {
     font-family: 'Press Start 2P', monospace;
     color: var(--green-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
 }
 
 p.subtitle {
