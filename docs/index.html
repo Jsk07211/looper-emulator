@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Looper ⏰</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:wght@400;600&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+
     <script src="js/util.js" defer></script>
     <script src="js/core.js" defer></script>
     <script src="js/arm.js" defer></script>
@@ -23,23 +28,22 @@
     <script src="js/gba.js" defer></script>
     <script src="resources/xhr.js" defer></script>
     <script src="js/main.js" defer></script>
+
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body style="text-align: center;">
-    <!-- Screen of GBA.js-->
-    <canvas id="screen" width="600" height="400"></canvas>
+    <header>
+        <h1>LOOPER ⏰</h1>
+        <p class="subtitle">A time-travelling puzzle game for the Game Boy Advance</p>
+    </header>
 
-    <!-- Start Controls -->
-    <div id="controls">
-        <!-- Start In-Game Controls -->
-        <h4>In-Game Controls</h4>
-        <div id="in-game" class="hidden">
-            <button id="pause">Pause Game</button>
-            <button id="reset-btn">Reset</button>
+    <div class="screen-wrapper">
+        <div class="screen-bezel">
+            <!-- Screen of GBA.js-->
+            <canvas id="screen" width="600" height="400"></canvas>
         </div>
-        <!-- End In-Game Controls -->
     </div>
-    <!-- End Controls -->
 </body>
 
 </html>

@@ -1,0 +1,43 @@
+:root {
+    /* dark text, borders */
+    --green-dark: #2d5a3d;
+    /* primary accent */
+    --green: #4a8c5c;
+    /* buttons, highlights */
+    --green-mid: #7ab893;
+    /* soft backgrounds */
+    --green-light: #b8dfc8;
+    /* card backgrounds */
+    --green-pale: #e8f5ee;
+    /* page background */
+    --cream: #f5f0e8;
+    --white: #ffffff;
+    /* main text */
+    --text: #2d3a2e;
+    /* secondary text */
+    --text-muted: #5a7060;
+
+    /* Button styling */
+    --pixel-shadow: 3px 3px 0px var(--green-dark);
+    --pixel-shadow-sm: 2px 2px 0px var(--green-dark);
+}
+
+body {
+    background: var(--cream);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Press Start 2P', monospace;
+    color: var(--green-dark);
+}
+
+p.subtitle {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}
