@@ -41,3 +41,72 @@ p.subtitle {
     margin-bottom: 1.5rem;
     line-height: 1.8;
 }
+
+/** CANVAS SECTION **/
+.game-card {
+    display: inline-block;
+    background: var(--cream);
+    border: 2px solid var(--green-dark);
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: var(--pixel-shadow);
+    overflow: hidden;
+}
+
+#screen {
+    display: block;
+    image-rendering: pixelated;
+    border-radius: 4px;
+}
+
+/** CONTROL SECTION **/
+.controls {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.controls h2 {
+    font-family: 'Press Start 2P', monospace;
+    color: rgb(45, 90, 61);
+    margin-bottom: 1.5rem;
+}
+
+.controls h3 {
+    font-family: 'Press Start 2P', monospace;
+    color: rgb(45, 90, 61);
+    font-size: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.mapping-tables {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.mapping-group {
+    flex: 1;
+}
+
+.controls table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Nunito', sans-serif;
+}
+
+.controls th {
+    background-color: rgb(45, 90, 61);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+.controls td {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.controls tr:nth-child(even) td {
+    background-color: rgba(45, 90, 61, 0.08);
+}
