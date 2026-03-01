@@ -16,7 +16,6 @@
 | ---------- | ------------------ |
 | Arrow Keys | Move Adam          |
 | X          | Confirm / Interact |
-| X          | Cancel / Back      |
 | Enter      | Open Inventory     |
 | L / R      | Time Travel        |
 
